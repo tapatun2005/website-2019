@@ -1,0 +1,18 @@
+{
+  "presets": [
+    ["env", {
+      "targets": {
+        "browserslist": ["last 2 versions", "safari >= 7", "IE >= 11"]
+      },
+      "useBuiltIns": "usage"
+    }]
+  ],
+  "plugins": [
+    [
+      "transform-strict-mode",
+      {
+        "strict": true
+      }
+    ]
+  ]
+}

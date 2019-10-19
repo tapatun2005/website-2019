@@ -1,0 +1,28 @@
+// Colours
+$white: #fff;
+$black: #000;
+
+
+$color-bg: #D9FFD6;
+$green: #00414C;
+$pink: #e8a3a3;
+
+$grey-light: #F5F3F5;
+
+$blue-light: #00B5D9;
+$blue: #0084A9;
+$yellow: #FFC425;
+$brown: #261C02;
+
+// Breakpoints
+$breakpoints: (
+  "0": 0,
+  "xss": 375px,
+  "xs": 480px,
+  "ss": 620px,
+  "sm": 768px,
+  "md": 991px,
+  "bg": 1025px,
+  "lg": 1200px,
+  "xl": 1800px
+);
