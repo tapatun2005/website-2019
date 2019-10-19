@@ -1,0 +1,18 @@
+#aside {
+	position: fixed;
+	width: 50vw;
+	height: 100vh;
+	overflow: hidden;
+}
+
+#content {
+	margin-left: calc(50vw);
+}
+
+.content {
+	margin-left: 5vw;
+}
+
+.container {
+	padding: 5vw 7vw;
+}

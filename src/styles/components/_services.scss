@@ -1,0 +1,34 @@
+.services {
+	margin: 3vw 7vw;
+	display: flex;
+}
+
+.services__list {
+	margin-right: 4vw;
+	flex: 1 0 0;
+	display: flex;
+	justify-content: space-between;
+	li {
+		a {
+			color: $black;
+			font-size: 22px;
+			text-align: center;
+		}
+		div {
+			width: 3.5vw;
+			height: 3.5vw;
+			background: $black;
+			margin: 0 auto 10px;
+			transition: transform .2s $cubic--one;
+		}
+
+		&:hover {
+
+			div {
+				transform: scale(.9);
+			}
+
+		}
+	}
+
+}

@@ -16,5 +16,5 @@ export function watch() {
   gulp.watch(Config.src.video, gulp.series('video', 'bsReload'))
   gulp.watch(Config.src.static, gulp.series('duplicateFiles', 'bsReload'))
   gulp.watch(Config.src.json, gulp.series('json', 'bsReload'))
-  gulp.watch(Config.src.pugs, gulp.series('pugs', 'bsReload'))
+  gulp.watch('./src/pugs/**/*.pug', gulp.series('pugs', 'bsReload'))
 }

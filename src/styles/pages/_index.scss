@@ -1,0 +1,9 @@
+.homepage {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+
+	.works {
+		flex: 1 0 auto;
+	}
+}

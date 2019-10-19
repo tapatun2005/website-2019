@@ -1,9 +1,47 @@
 doctype html
 html(lang="en")
 	head
-		title Trussle Government Scheme
+		title Website 2019
 		link(href='/assets/css/style.css', rel='stylesheet')
 	body
 		#app
+			#background
+			#aside
+				include partials/aside.pug
+				include partials/logo.pug
+				
+			#content
+				.homepage
+					.services
+						ul.services__list
+							li
+								a(href="")
+									div
+									h3 Design
+							li
+								a(href="")
+									div
+									h3 Web Dev
+							li
+								a(href="")
+									div
+									h3 Branding
+
+						h2.-orange.-lg Services
+					.works
+						h2.title.-lg.-light Works
+						.gallery
+							ul
+								li.gallery__item
+									//- img(src="/assets/img/placeholder.jpg", alt="")
+									div
+										h4 BHF
+										p Small description here
+										a(href="" class="button__circle" title="") 
+											span Find more
+
+
+			#menu
+				include partials/menu.pug
 
 		script(src="/assets/js/homepage.js")

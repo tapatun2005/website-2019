@@ -1,0 +1,33 @@
+.gallery {
+	
+	margin-left: 6vw;
+
+	ul {
+		width: calc(100% + 7vw);
+	}
+
+	&__item {
+		
+		position: relative;
+		width: 100%;
+		height: 50vh;
+		background: $grey;
+		box-shadow: 2vw 3vw 20vw rgba($black, .45);
+
+		img {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+
+		div {
+			color: $white;
+			position: absolute;
+			top: 0;
+			left: 0;
+			padding: 3vw 3vw;
+		}
+	}
+
+}

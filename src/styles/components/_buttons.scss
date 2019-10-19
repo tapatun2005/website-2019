@@ -1,0 +1,38 @@
+button,
+.button,
+input[type="submit"] {
+	
+	display: inline-block;
+	padding: 10px 30px;
+	color: $white;
+	background: $black;
+	font-family: $font-bold;
+	margin: 20px 0;
+	transition: color .1s $cubic--one;
+
+	span {
+		&:last-child {
+			color: $orange;
+		}
+	}
+
+	svg {
+		margin-left: 10px;
+		width: 16px;
+	}
+
+	
+	polygon {
+		fill: $orange;
+	}
+
+
+	&.-secondary {
+		background: $orange;
+	}
+
+	&:hover {
+		color: $orange;
+	}
+
+}
